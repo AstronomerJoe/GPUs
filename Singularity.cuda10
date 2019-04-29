@@ -45,6 +45,7 @@ pip install scipy
 pip install cython
 pip install jupyter
 pip install pandas
+pip install seaborn
 pip install git+https://github.com/qubvel/classification_models.git
 
 
