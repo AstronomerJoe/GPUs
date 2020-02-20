@@ -28,6 +28,7 @@ yum -y install hdf5
 yum -y install hdf5-devel
 yum -y install h5py
 yum -y install graphviz
+
 source /tensorflow/bin/activate
 pip install keras
 pip install progressbar2
@@ -47,7 +48,7 @@ pip install jupyter
 pip install pandas
 pip install seaborn
 pip install git+https://github.com/qubvel/classification_models.git
-
+pip install tqdm
 
 %environment
 alias start-tensorflow="source /tensorflow/bin/activate"
